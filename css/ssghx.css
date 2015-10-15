@@ -531,7 +531,9 @@ button.hamburger {
 }
 
 .section-projects .project {
-  overflow: auto;
+  overflow: hidden;
+  height:   272px;
+  margin-bottom: 20px;
 }
 /*.section-projects .project h3 {
   margin-top: 0;
