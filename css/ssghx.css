@@ -588,7 +588,7 @@ button.hamburger {
 /** partners section ***********************************************************/
 
 .section-partners img {
-  float: left;
+  float: right;
   margin: 22px;
 
 }
