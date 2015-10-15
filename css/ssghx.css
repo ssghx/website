@@ -527,6 +527,7 @@ button.hamburger {
   border-top-width: 4px;
   border-top-style: solid;
   border-top-color: #426681;
+  padding-bottom:   50px;
 }
 
 .section-projects .project {
@@ -535,17 +536,21 @@ button.hamburger {
 /*.section-projects .project h3 {
   margin-top: 0;
 }*/
-.section-projects .project img {
+.section-projects .project .image-frame {
   float:        left;
-  width:         30%;
-  height:        100%;
+  width:        250px;
+  height:       250px;
   margin-top:    22px;
-  /*padding-right: 22px;*/
-  background-color: #fff;
-  border-top-width: 4px;
-  border-top-style: solid;
-  border-top-color: #426681;
+  margin-right:  22px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #426681;
+  overflow: hidden;
 }
+.section-projects .project img {
+  width: 100%;
+}
+
 .section-projects .project .content {
   float: left;
   width: 70%;
