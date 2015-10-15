@@ -591,6 +591,15 @@ button.hamburger {
 
 }
 
+/** solution section **********************************************************/
+
+.section-solution img {
+
+  float: right;
+  margin: 22px;
+
+}
+
 /** about page ****************************************************************/
 
 .about-banner {
