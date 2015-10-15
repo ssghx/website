@@ -583,6 +583,13 @@ button.hamburger {
   bottom: 0;
 }*/
 
+/** partners section ***********************************************************/
+
+.section-partners img {
+  float: left;
+  margin: 22px;
+
+}
 
 /** about page ****************************************************************/
 
@@ -607,6 +614,9 @@ button.hamburger {
   padding:    30px 0 30px 0;
   color:      #fff;
   background: #426681;
+}
+.footer p {
+  text-align: center;
 }
 
 .footer .container-footer {
