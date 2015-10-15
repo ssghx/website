@@ -553,10 +553,6 @@ button.hamburger {
   width: 100%;
 }
 
-.section-projects .project .content {
-  float: left;
-  width: 70%;
-}
 .section-projects .project a {
   color:           inherit;
   text-decoration: inherit;
