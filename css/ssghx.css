@@ -428,6 +428,12 @@ ol {
   background-color: #638fc3;
 }
 
+#footer p {
+  font-size:  18px;
+  text-align: center;
+  color:      #fff;
+}
+
 /** header section (all pages) ************************************************/
 
 #header {

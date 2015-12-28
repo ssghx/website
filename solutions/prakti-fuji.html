@@ -31,10 +31,24 @@
       <p class="bun"></p>
       <p class="bun"></p>
     </div>
-    <div class='search'>
-      <input class='search-input' type='search' placeholder='search projects'>
+    <form class='search'>
+      <input
+        id='search'
+        class='search-input'
+        value=""
+        type='search'
+        name="q"
+        placeholder='search projects'
+        autocomplete="off"
+        autocapitalize="off"
+        autocorrect="off"
+        spellcheck="false"
+        maxlength="20">
+      </input>
       <span class='search-icon'>&#xe003;</span>
-    </div>
+      <!-- <span id="search-clear" class="fa fa-fw fa-lg" title="Esc - Clear Search"></span>
+      <span id="search-count">?</span> -->
+    </form>
     <div class='buttons'>
       <a class='button' href='/add-solution/' title='add-solution'>&#x270f;</a>
       <a class='button' href='/add-need/' title='add-need'>&#x270f;</a>
@@ -61,7 +75,7 @@
     <div class="row">
       <div class="column">
         <h1>Prakti Fuji</h1>
-        <h2></h2>
+        <h2>Prakti</h2>
       </div>
     </div>
 
@@ -69,6 +83,10 @@
 
       <div class="column column-solution-left">
         <img src="http://images.techxlab.org/ast/dogu6k9-790-fuji-banner-01.png" alt="Prakti Fuji">
+          <h3>Contact Solution Provider</h3>
+          <div data-render-html="/solutions/prakti-fuji#contact"><p>Gopinath Krishnamoorthy<br>Prakti<br>Spirit Sense, Old Auroville Rd, Bommiyarpalayam
+Pondicherry<br>605104<br>India<br>+91 413 262 34 37<br>sales@praktidesign.com  </p>
+</div>
       </div>
 
       <div class="column column-solution-right">
@@ -101,6 +119,8 @@
 </div>
 
 <footer id="footer" class="section">
+  <div data-render-html="/#footer"><p>United Nations Office for South South Cooperation<br>304 East 45th Street, Room 1212<br>New York, NY 10017  </p>
+</div>
 </footer>
 </div>
 </body>
