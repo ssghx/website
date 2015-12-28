@@ -1,0 +1,221 @@
+<!-- Includes loginradius code - requires separate version from signup. -->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="q4cI3sw7kfZWjs13SyKlpq0YT9pGDmlvhdPBUf_TJms" />
+<meta name="description" content="TEL offers a global platform for sharing local and decentralized sustainable solutions aimed at problems of poverty. The TEL community includes inventors, non-profits, entrepreneurs, investors, environmentalists and community leaders.  Find or promote low-cost solutions and products for water agriculture, energy, housing and transport, education and IT, health and medical care.  Explore funding and support for innovators and new solutions." />
+<meta name="keywords" content="developing countries, developing world, development, disaster management, disaster planning, economic development, education, emergency management, entrepreneurship, environment, health, household water, innovation, invention, low cost technologies, micro-finance, micro-loans, point-of-use technologies, potable water, product comparison, solar cooking, solar energy, solar power, sustainable agriculture, sustainable development, technologies, technology, technology exchange, Third World, water and sanitation" />
+		<title>TEL - Technology Exchange Lab - The Center for High-Impact, Low-Cost Solutions to Problems of Poverty</title>
+
+		<link rel="stylesheet" type="text/css" href="/site/templates/styles/tel.css?r159">
+		<link rel="stylesheet" type="text/css" href="/site/templates/styles/subpage.css?r145">
+		<link rel="stylesheet" type="text/css" href="/site/templates/styles/languages.css">
+		<link rel="stylesheet" type="text/css" href="/site/templates/styles/redmond/jquery-ui.min.css">
+                <link rel="stylesheet" type="text/css" href="/site/templates/styles/redmond/jquery.ui.theme.css">
+
+				<style>
+			.search-btn {
+            			padding: 0;
+            			border: none;
+        		}
+		</style>
+
+		<script type="text/javascript" src="/site/templates/scripts/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="/site/templates/scripts/tel-top.js"></script>
+		<script type="text/javascript" src="/site/templates/scripts/jquery-ui-1.10.3.custom.js"></script>
+		
+		<script type="text/javascript">var switchTo5x=true;</script><script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'838e593b-f7dd-4306-8c70-f70b72735324'});</script>
+		<!-- Google Analytics -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27156481-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+		<link rel="icon" type="image/gif" href="/site/templates/styles/img/favicon.ico" /> <!-- added - ewp -->
+			<!-- This code must be placed in the <head> tag in order for LoginRadius to work -->
+
+	<!-- later: determine current page url so LoginRadius will return here -->
+
+     	<script src="https://hub.loginradius.com/include/js/LoginRadius.js" ></script> 
+	<script type="text/javascript"> 
+		var options={}; options.login=true; 
+		LoginRadius_SocialLogin.util.ready(function () { 
+			$ui = LoginRadius_SocialLogin.lr_login_settings;
+			$ui.interfacesize = "";
+			$ui.apikey = "63cfa3f1-036f-46a2-a30e-4084afca64c6";
+			$ui.callback=""; 
+			$ui.lrinterfacecontainer ="interfacecontainerdiv"; 
+			LoginRadius_SocialLogin.init(options); 
+			}); 
+		</script>
+		
+ <!-- LoginRadus setup code -->
+	</head>
+<body class="">
+<div class="page">
+	<img src="/site/templates/styles/img/ajax-loader.gif" id="loader-img" class="tel-display-none"/>
+	<!-- Header. -->
+	<div class="header">
+		<h1 class="logo">
+			<a href="/">TEL: Technology Exchange Lab</a>
+		</h1>
+		<p class="tagline">The <em>Center</em> for High-Impact, Low-Cost Solutions to Problems of Poverty</p>
+		<div class="cl"></div>
+		<div class="top-actions notranslate" style="display:inline;">
+	  <div style="width:200; height:13px; display:inline;" >
+	   <span class="top-nav-langs" style="display:inline; color:#666666;">
+
+
+<!--
+		<form action="/search/" method="GET" class="search">
+            		<input type="hidden" name="search" value="1" />
+            		<input type="text" name="query" />
+            		<a href="/search/" class="submit">SEARCH &raquo;</a>
+            		<div class="cl"></div>
+          	</form>
+-->
+	  </span>
+                        <div class="login" style="display:inline;">
+                <a href="/loginprovider/" class="submit">LOGIN</a>
+              </div>
+          	</div>
+</div>
+
+<script>
+lang_transition_url = '';
+$(function() {
+	$("#lang-disclaimer").dialog({
+				resizable: false,
+				height:"auto",
+				width: 500,
+				modal: true,
+				autoOpen: false,
+				buttons: {
+					"I read and I agree": function() {
+							$(this).dialog("close");
+							window.location.href = lang_transition_url;
+					},
+					Cancel: function() {
+							$(this).dialog("close");
+					}
+				},
+				create: function() {
+					$('#lang-disclaimer').removeClass('tel-display-none');
+				}
+	});
+});
+
+$('.change-lang-link').click(function(e) {
+		e.preventDefault();
+		lang_transition_url = $(this).attr('href');
+		$("#lang-disclaimer").dialog("open");
+});
+</script>
+
+<div class="notranslate tel-display-none" id="lang-disclaimer" title="Translation Disclaimer">
+	<p>The content on the Technology Exchange Lab website is currently provided primarily in English.</p>
+	<p>A limited number of pages have been translated by conventional methods to other selected languages. Additional pages, including the solution descriptions, have been automatically translated by Google Translate API.  Google Translate API cannot translate all types of documents, and it may not result an exact or accurate translation, particularly of technical and legal terminology.  Some files including graphs, photos and PDFs cannot be translated through the automated process.</p>
+	<p>Anyone relying on information obtained from Google Translate API does so at his or her own risk. The Technology Exchange Lab does not warrant or make any promises, assurances, or guarantees as to the accuracy of the translations provided by Google Translate API.  Nor shall we be liable for damages or losses of any kind arising out of, or in connection with, the use or performance of such information, including but not limited to, damages or losses caused by reliance upon the accuracy, reliability or timeliness of any such information, or damages incurred from the viewing, distributing, or copying of such materials.</p>
+</div>
+		                <form id="sso_login" action="/login/" method="POST" class="login-panel">
+                        <input type="hidden" name="login_target" value="/site/templates/upload/product/image/708_image.jpg" />
+                        <p>
+                                <input type="text" class="login-uname text empty" name="username" value="Enter Your Username" title="Enter Your Username" />
+                                <input type="text" class="login-passwd-prompt text empty" name="password_prompt" value="Enter Your Password" />
+                                <input type="password" class="login-passwd text" name="password" />
+                        </p>
+                        <p style="margin-bottom:0px">
+                                <input type="checkbox" id="remember" name="remember" class="login-remember" />
+                                <label for="remember">Remember Me</label>
+                                <input type="submit" value="" class="submit" title="Log In" />
+                        </p>
+						<!-- LoginRadius SSO -->
+						<p style="margin-top:0px; left:22px">
+                                <a href="/forgot-login/">Forgot Your Login Info?</a>
+								<div style="margin:16px 10px 10px 20px;">You may also log in using<br/>one of these accounts:</div>
+								<div id="interfacecontainerdiv" class="interfacecontainerdiv" style="margin-top:4px;" onclick="document.sso_login.submit()" ></div>
+						<!-- LoginRadius end -->
+			</p>
+                                <a href="/" class="close">Close</a>
+                </form>
+	</div>
+
+	<!-- Top Nav -->
+<div class="top-nav notranslate"><a href="/about/">About</a><span class="div">|</span><a href="/find-solutions/">Find Solutions</a><span class="div">|</span><a href="/add-a-solution/">Add a Solution</a><span class="div">|</span><a href="/resources/">Resources</a><span class="div">|</span><a href="/articles/">Articles</a><span class="div">|</span><a href="/forum/">Forum</a><span class="div">|</span><a href="/faq/">FAQ</a><span class="div">|</span><a href="/contact/">Contact</a><div class="cl"></div></div>
+
+	<div class="subp-nav">
+        	<div class="subp-callout">
+            	
+    <p class="join-tel">
+      <em> Join the TEL network </em> to propose and promote sustainable solutions, launch discussions, benefit from feedback, and exchange best practice    </p>
+    <a id="callout-top-sign-up" href="/sign-up/" class="sign-up">Sign Up Now &raquo;</a>
+    <script>
+	$('#callout-top-sign-up').button();
+    </script>
+
+        	</div>
+				        	<div class="cl"></div>
+	</div>
+
+	<div class="subp-content">
+		<div>
+        	<h3 style="text-align: center; font-size: 2em">Oops! This page is not found</h3>
+<img style="width:570px; display:block; margin:0 auto;" src="/site/templates/styles/img/404.jpg" />
+		</div>
+        	<div class="cl"></div>
+      	</div>
+
+	<!-- Footer. -->
+     	<!-- TEL standard footer -->
+      <div class="footer">
+        <p class="tel-links">
+		<!-- FB like button added 2001-04-14 - EWP -->
+		<iframe src="http://www.facebook.com/plugins/like.php?href=www.technologyexchangelab.org" 
+		  scrolling="no" frameborder="0" style="border:none; width:450px; height:25px">
+		  </iframe><br/>
+		  <!-- end FB like button -->
+		  <!-- copyright -->   &copy; 2015          <a href="/" class="tel">Technology Exchange Lab, Inc.</a>
+          &nbsp;
+          <a href="/sign-up/privacy-policy/" class="privacy">Our Privacy Policy</a>
+          |
+          <a href="/sitemap/" class="sitemap">Sitemap</a>
+        </p>
+        <p class="tel-line">
+          The Technology Exchange Lab, Inc., Cambridge Innovation Center, 1 Broadway, 14th Floor, Cambridge, MA 02142, USA        </p>
+        <p class="tel-line">
+          TEL is a registered non-profit, tax-exempt charity under section 501(c)(3) of the U.S. Internal Revenue Code. Donations are tax deductible to the extent allowed by U.S. law. TEL is a public resource with no commercial allegiance.        </p>
+		<br />
+        <div class="share">
+          <span class='st_email'></span>
+          <span class='st_facebook'></span>
+          <span class='st_twitter'></span>
+          <span class='st_linkedin'></span>
+          <span class='st_sharethis' displayText='ShareThis'></span>
+        </div>
+        <div class="follow">
+          <img style="background-color:transparent;" src="/site/templates/styles/images/social_media_follow_tel.gif" width="85" height="20" alt="Follow Us" />
+            <a href="http://www.facebook.com/pages/Technology-Exchange-Lab-Inc/183240025036475" target="_blank" class="facebook">Facebook</a>
+            <a href="https://twitter.com/TechExLab" target="_blank" class="twitter">Twitter</a>
+        </div>
+        <div class="follow">
+  <img src="/site/templates/styles/images/social_media_follow_tel.gif"
+       width="85" height="20" alt="Follow Us" />
+  <a href="http://www.facebook.com/pages/Technology-Exchange-Lab-Inc/183240025036475" target="_blank" class="facebook">Facebook</a>
+  <a href="https://twitter.com/TechExLab" target="_blank" class="twitter">Twitter</a>
+</div>
+      </div>
+	  <br/>
+<!-- end - TEL standard footer -->
+
+     	</div>
+</body>
+</html>

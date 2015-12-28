@@ -1,0 +1,503 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+
+    <!-- metadata -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="q4cI3sw7kfZWjs13SyKlpq0YT9pGDmlvhdPBUf_TJms" />
+<meta name="description" content="TEL offers a global platform for sharing local and decentralized sustainable solutions aimed at problems of poverty. The TEL community includes inventors, non-profits, entrepreneurs, investors, environmentalists and community leaders.  Find or promote low-cost solutions and products for water agriculture, energy, housing and transport, education and IT, health and medical care.  Explore funding and support for innovators and new solutions." />
+<meta name="keywords" content="developing countries, developing world, development, disaster management, disaster planning, economic development, education, emergency management, entrepreneurship, environment, health, household water, innovation, invention, low cost technologies, micro-finance, micro-loans, point-of-use technologies, potable water, product comparison, solar cooking, solar energy, solar power, sustainable agriculture, sustainable development, technologies, technology, technology exchange, Third World, water and sanitation" />
+
+    <title>TEL - Technology Exchange Lab - The Center for High-Impact, Low-Cost Solutions to Problems of Poverty</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="/site/templates/styles/tel.css?r160">
+    <link rel="stylesheet" type="text/css" href="/site/templates/styles/home.css?r160">
+    <link rel="stylesheet" type="text/css" href="/site/templates/styles/languages.css">
+    <link rel="stylesheet" type="text/css" href="/site/templates/styles/redmond/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="/site/templates/styles/redmond/jquery.ui.theme.css">
+
+    <!-- scripts -->
+    <script type="text/javascript" src="/site/templates/scripts/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="/site/templates/scripts/tel-top.js"></script>
+    <script type="text/javascript" src="/site/templates/scripts/home.js"></script>
+    <script type="text/javascript" src="/site/templates/scripts/jquery-ui-1.10.3.custom.js"></script>
+
+    <script type="text/javascript">var switchTo5x=true;</script><script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'838e593b-f7dd-4306-8c70-f70b72735324'});</script>
+    <!-- Google Analytics -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27156481-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+    <link rel="icon" type="image/gif" href="/site/templates/styles/img/favicon.ico" /> <!-- added - ewp -->
+    	<!-- This code must be placed in the <head> tag in order for LoginRadius to work -->
+
+	<!-- later: determine current page url so LoginRadius will return here -->
+
+     	<script src="https://hub.loginradius.com/include/js/LoginRadius.js" ></script> 
+	<script type="text/javascript"> 
+		var options={}; options.login=true; 
+		LoginRadius_SocialLogin.util.ready(function () { 
+			$ui = LoginRadius_SocialLogin.lr_login_settings;
+			$ui.interfacesize = "";
+			$ui.apikey = "63cfa3f1-036f-46a2-a30e-4084afca64c6";
+			$ui.callback=""; 
+			$ui.lrinterfacecontainer ="interfacecontainerdiv"; 
+			LoginRadius_SocialLogin.init(options); 
+			}); 
+		</script>
+		
+
+  </head>
+<body class="">
+  <img src="/site/templates/styles/img/ajax-loader.gif" id="loader-img" class="tel-display-none"/>
+  <div class="page">
+
+    <!-- Header. -->
+    <div class="header">
+      <h1 class="logo">
+        <a href="/">TEL: TechnologyExchangeLab</a>
+      </h1>
+      <p class="tagline">The <em>Center</em> for High-Impact, Low-Cost Solutions to Problems of Poverty</p>
+      <div class="cl"></div>
+      <div class="top-actions notranslate" style="display:inline;">
+	  <div style="width:200; height:13px; display:inline;" >
+	   <span class="top-nav-langs" style="display:inline; color:#666666;">
+
+
+<!--
+		<form action="/search/" method="GET" class="search">
+            		<input type="hidden" name="search" value="1" />
+            		<input type="text" name="query" />
+            		<a href="/search/" class="submit">SEARCH &raquo;</a>
+            		<div class="cl"></div>
+          	</form>
+-->
+	  </span>
+                        <div class="login" style="display:inline;">
+                <a href="/loginprovider/" class="submit">LOGIN</a>
+              </div>
+          	</div>
+</div>
+
+<script>
+lang_transition_url = '';
+$(function() {
+	$("#lang-disclaimer").dialog({
+				resizable: false,
+				height:"auto",
+				width: 500,
+				modal: true,
+				autoOpen: false,
+				buttons: {
+					"I read and I agree": function() {
+							$(this).dialog("close");
+							window.location.href = lang_transition_url;
+					},
+					Cancel: function() {
+							$(this).dialog("close");
+					}
+				},
+				create: function() {
+					$('#lang-disclaimer').removeClass('tel-display-none');
+				}
+	});
+});
+
+$('.change-lang-link').click(function(e) {
+		e.preventDefault();
+		lang_transition_url = $(this).attr('href');
+		$("#lang-disclaimer").dialog("open");
+});
+</script>
+
+<div class="notranslate tel-display-none" id="lang-disclaimer" title="Translation Disclaimer">
+	<p>The content on the Technology Exchange Lab website is currently provided primarily in English.</p>
+	<p>A limited number of pages have been translated by conventional methods to other selected languages. Additional pages, including the solution descriptions, have been automatically translated by Google Translate API.  Google Translate API cannot translate all types of documents, and it may not result an exact or accurate translation, particularly of technical and legal terminology.  Some files including graphs, photos and PDFs cannot be translated through the automated process.</p>
+	<p>Anyone relying on information obtained from Google Translate API does so at his or her own risk. The Technology Exchange Lab does not warrant or make any promises, assurances, or guarantees as to the accuracy of the translations provided by Google Translate API.  Nor shall we be liable for damages or losses of any kind arising out of, or in connection with, the use or performance of such information, including but not limited to, damages or losses caused by reliance upon the accuracy, reliability or timeliness of any such information, or damages incurred from the viewing, distributing, or copying of such materials.</p>
+</div>
+ <!-- TBD -->
+                      <form id="sso_login" action="/login/" method="POST" class="login-panel">
+                        <input type="hidden" name="login_target" value="/site/templates/upload/product/image/646_Wooden%20Pallet%20Planter.jpg" />
+                        <p>
+                                <input type="text" class="login-uname text empty" name="username" value="Enter Your Username" title="Enter Your Username" />
+                                <input type="text" class="login-passwd-prompt text empty" name="password_prompt" value="Enter Your Password" />
+                                <input type="password" class="login-passwd text" name="password" />
+                        </p>
+                        <p style="margin-bottom:0px">
+                                <input type="checkbox" id="remember" name="remember" class="login-remember" />
+                                <label for="remember">Remember Me</label>
+                                <input type="submit" value="" class="submit" title="Log In" />
+                        </p>
+						<!-- LoginRadius SSO -->
+						<p style="margin-top:0px; left:22px">
+                                <a href="/forgot-login/">Forgot Your Login Info?</a>
+								<div style="margin:16px 10px 10px 20px;">You may also log in using<br/>one of these accounts:</div>
+								<div id="interfacecontainerdiv" class="interfacecontainerdiv" style="margin-top:4px;" onclick="document.sso_login.submit()" ></div>
+						<!-- LoginRadius end -->
+			</p>
+                                <a href="/" class="close">Close</a>
+                </form>
+    </div>
+
+    <!-- Top Nav -->
+<div class="top-nav notranslate"><a href="/about/">About</a><span class="div">|</span><a href="/find-solutions/">Find Solutions</a><span class="div">|</span><a href="/add-a-solution/">Add a Solution</a><span class="div">|</span><a href="/resources/">Resources</a><span class="div">|</span><a href="/articles/">Articles</a><span class="div">|</span><a href="/forum/">Forum</a><span class="div">|</span><a href="/faq/">FAQ</a><span class="div">|</span><a href="/contact/">Contact</a><div class="cl"></div></div>
+    	<div class="solutions">
+		<div class="row-1">
+			<div class="water block"> 
+				<!-- following line is linked image added 200402602012 -->
+				<a href="/find-solutions/water-sanitation/" id="solution-WS">Water &amp; Sanitation</a>
+				<a href="/find-solutions/water-sanitation/" class="sol" >Water &amp; Sanitation</a>
+				<div class="sol-panel">
+					<div class="sol-content">
+						<p>Find solutions and multiple technologies to purify, move and store household water, prevent contamination, and construct sanitary local waste disposals and latrines.
+						</p>
+						<p>
+							<a href="/find-solutions/water-sanitation/">Continue &raquo;</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="ag block">
+				<!-- following line is linked image added 200402602012 -->
+				<a href="/find-solutions/agriculture/" id="solution-AG" >Agriculture</a>
+				<a href="/find-solutions/agriculture/" class="sol" >Agriculture</a>
+				<div class="sol-panel">
+					<div class="sol-content">
+						<p>
+							Discover sustainable farming methods and tools that integrate solutions for cultivation, irrigation, seeds and stock, learning and market access.
+						</p>
+						<p>
+							<a href="/find-solutions/agriculture/">Continue &raquo;</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="nrg block">
+				<!-- following line is linked image added 200402602012 -->
+				<a href="/find-solutions/energy/" id="solution-NRG">Energy</a>
+				<a href="/find-solutions/energy/" class="sol" >Energy</a>
+				<div class="sol-panel">
+					<div class="sol-content">
+						<p>
+							Explore sustainable cooking methods, solar-powered products, green fuels and portable solutions for energy generation and storage, heating and cooling, lighting.
+						</p>
+						<p>
+							<a href="/find-solutions/energy/">Continue &raquo;</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="join">
+			
+    <p class="join-tel">
+      <em> Join the TEL network </em> to propose and promote sustainable solutions, launch discussions, benefit from feedback, and exchange best practice    </p>
+    <a id="callout-top-sign-up" href="/sign-up/" class="sign-up">Sign Up Now &raquo;</a>
+    <script>
+	$('#callout-top-sign-up').button();
+    </script>
+
+			</div>
+			<div class="cl"></div>
+		</div>
+
+		<div class="row-2">
+			<div class="ht block">
+				<!-- following line is linked image added 200402602012 -->
+				<a href="/find-solutions/housing-transport/" id="solution-HT">Housing &amp; Transport</a>
+				<a href="/find-solutions/housing-transport/" class="sol" >Housing &amp; Transport</a>
+				<div class="sol-panel">
+					<div class="sol-content">
+						<p>
+							Explore innovative shelter solutions, sustainable materials, work-bikes and other low-cost effective transportation.
+						</p>
+						<p>
+							<a href="/find-solutions/housing-transport/">Continue &raquo;</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="ed block">
+				<!-- following line is linked image added 200402602012 -->
+				<a href="/find-solutions/education-information-technology/" id="solution-ED">Education &amp; Connectivity</a>
+				<a href="/find-solutions/education-information-technology/" class="sol" >Education &amp; Connectivity</a>
+				<div class="sol-panel">
+					<div class="sol-content">
+						<p>
+							Find resources for independent and distance learning, gathering and sharing information, classroom and community-based teaching.
+						</p>
+     						<p>
+     							<a href="/find-solutions/education-information-technology/">Continue &raquo;</a>
+     						</p>
+     					</div>
+     				</div>
+     			</div>
+     
+			<div class="med block">
+     				<!-- following line is linked image added 200402602012 -->
+     				<a href="/find-solutions/health-medical-care/" id="solution-HM">Health &amp; Medical Care</a>
+     				<a href="/find-solutions/health-medical-care/" class="sol" >Health &amp; Medical Care</a> 
+     				<div class="sol-panel">
+     					<div class="sol-content">
+     						<p>
+     							Learn about innovations in vaccination, women&rsquo;s health and the clinical/surgical environment; new advances against diseases, malnutrition and infant mortality.
+     						</p>
+     						<p>
+     							<a href="/find-solutions/health-medical-care/">Continue &raquo;</a>
+     						</p>
+     					</div>
+     				</div>
+     			</div>
+     			<div class="cl"></div>
+     		</div>
+     </div>
+
+
+    <!-- Solutions. -->
+    <div class="main-content">
+
+      <!-- left sidebar -->
+      <div class="content-left">
+        <div class="content-panel">
+          <div class="section first">
+             <div class="notranslate">
+<h2 class="how">How <em>TEL</em> Works:</h2>
+<p>
+  TEL is an independent, not-for-profit organization that provides a platform where the global community can share and discuss innovative, locally implemented solutions to problems of poverty and sustainability. We are a growing international network of inventors, engineers, non-profit workers, entrepreneurs, environmentalists, micro-financiers and community leaders, welcoming new members.</p>
+<div class="links">
+  <a href="/about/how-tel-works/">Explore the Possibilities &raquo;</a>
+  <div class="cl"></div>
+  <a href="/about/testimonials/">What People Say &raquo;</a>
+  <div class="cl"></div>
+</div>
+</div>
+           </div>
+          <div class="section second" > <!-- ewp - 20120615 -->
+                 <h2 class="ideas"><em>Prizes</em> for Ideas:</h2>
+<p>
+  Seeking support or recognition for a high-impact invention or solution,
+  either ready for use or in development?  Check our frequently updated
+  guide to competitions, grants and awards for opportunities to promote
+  and fund your work.
+</p>
+<div class="links">
+  <a href="/resources/prizes-for-ideas/">View Listings &raquo;</a>
+  <div class="cl"></div>
+</div>
+           </div>
+         </div>
+      </div>
+
+      <!-- Right side of content. -->
+      <div class="content-right">
+        <div class="spotlight">
+          <div class="spotlight-panel">
+              
+<h2><em>Solution</em> Spotlight:</h2>
+              
+<h3><a href="/find-solutions/show/?id=192&from=home">Biochar Production and Application</a></h3>
+<img class="spotlight-solution"
+     src="/site/templates/upload/product/image/192_biochar.PNG"
+     width="100"
+     height="133"
+     border="0" alt="Featured solution" />
+<div class="spotlight-solution">
+  <p>
+    The Geoecology Energy Organisation is now promoting the production of biochar, a pure carbon charcoal obtained by burning plant and agricultural waste in confined spaces. It is an extremely potent fertilizer that enriches soil, enhances microorganism growth, and promotes oxygen circulation around plants. The process also sequesters carbon, mitigating global warming.  </p>
+  <div class="links">
+    <a href="/find-solutions/show/?id=192&from=home">See Solution Details &raquo;</a>
+    <div class="cl"></div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ewp - 20120615 horizontal line above 3-part content -->
+      <div style="width:100%; clear:both;">
+        <div style="width:4%; float:left;">&nbsp;</div>
+        <div style="width:92%; border-top: 1px dashed #7eafb6; float:left;">&nbsp;</div>
+        <div style="width:4%; float:right">&nbsp;</div>
+      </div>
+
+      <div class="content-panel section last slide-panels">
+        <div class="slide-panel people">
+          
+<h2><em>People</em> Make It Happen:</h2>
+
+                    <span class="date">2014-10-31</span>
+                    <h3><a href="/articles/people/">Last-Mile Connectivity</a></h3>
+                    <div class="article">
+	            	<img class="bio-pic" src="/site/templates/upload/img/opdoc-peru-video-sixteen-by-nine310.jpg" border="0" alt="people image" />
+			&ldquo;Development moves like a turtle,&rdquo; muses a resident of Palestina, Peru, a remote Amazonian village accessible only by riverboat. &ldquo;Wiring the Amazon&rdquo;, a short documentary by Michael Kleiman, chronicles the progress of Palestina as it struggles to connect to the outside world through satellite telephone and internet connections, accompanied by government programs to bring laptops to students in remote communities.&nbsp;		
+                    </div>
+                    <div class="links">
+                      <a href="/articles/people/">Read Full Story &raquo;</a>
+                      <div class="squares">
+                        <span>*</span><span>*</span><span>*</span>
+                      </div>
+                    </div>
+        </div>
+        <div class="slide-panel news" style="width:280px !important;">
+          
+<h2><em>News</em> &amp; <em>Insights</em>:</h2>
+                   <h3><a href="/articles/news-insights/">After Farmers Commit Suicide, Debts Fall on Families in India</a></h3>
+                   <div class="article">
+			<img class="news-pic" src="/site/templates/upload/img/20140223india_slide_tplc_superjumbo.jpg" border="0" alt="people image" />	
+                    	Written by Harsha Vadlamani, contributing reporter form Hyderbad, India; The New York Times.		
+                   </div>
+                   <div class="links">
+                   	<a href="/articles/news-insights/">Read Full Story &raquo;</a>
+                      	<div class="squares">
+                        	<span>*</span><span>*</span><span>*</span>
+                      	</div>
+                   </div>
+        </div>
+        <div style="width:270px !important; float:left; background:white; border-left:1px dashed #7eafb6;">
+          <div style="padding-top:0 !important; padding-left:20px !important;">
+            <div class="section last partners-panel">
+              <div class="partner">
+	<img src="/site/templates/styles/images/partners/translations4progress.jpg" class="partner-logo" alt="Logo:Translations for Progress" />
+	<p>Translations for Progress</p>
+	<div class="links">
+		<a href="http://www.translationsforprogress.org/index.php" target="_blank">Visit Translations for Progress &raquo;</a>
+		<div class="cl"></div>
+	</div>
+</div><div class="partner">
+	<img src="/site/templates/styles/images/partners/global_alliance_clean_cookstoves_sm.jpg" class="partner-logo" alt="Logo: Global Alliance for Clean Cookstoves" />
+	<p>The Global Alliance for Clean Cookstoves is a public-private partnership that seeks to save lives, improve livelihoods, empower women, and protect the environment by creating a thriving global market for clean and efficient household cooking solutions.</p>
+	<div class="links">
+		<a href=" http://www.cleancookstoves.org/" target="_blank">Visit Global Alliance for Clean Cookstoves &raquo;</a>
+		<div class="cl"></div>
+	</div>
+</div><div class="partner">
+	<img src="/site/templates/styles/images/partners/MIT-CHIEF-logo-200w.jpg" class="partner-logo" alt="MIT-CHIEF" />
+	<p>MIT-China Innovation and Entrepreneurship Forum.</p>
+	<div class="links">
+		<a href="http://mitchief.org/" target="_blank">Visit MIT-CHIEF &raquo;</a>
+		<div class="cl"></div>
+	</div>
+</div><div class="partner">
+	<img src="/site/templates/styles/images/partners/a-better-world-xxxsm.jpg" class="partner-logo" alt="Logo: A Better World by Design" />
+	<p>A Better World by Design is a three-day internationally acclaimed conference held annually at Brown & RISD campuses in Providence, RI.</p>
+	<div class="links">
+		<a href="http://www.abetterworldbydesign.com/" target="_blank">Visit A Better World by Design &raquo;</a>
+		<div class="cl"></div>
+	</div>
+</div><div class="partner">
+	<img src="/site/templates/styles/images/partners/eia-logo-hp.gif" class="partner-logo" alt="Logo: EIA (Environmental Investigation Agency)" />
+	<p>The EIA is an international campaigning organization committed to investigating and exposing environmental crime and campaigning to protect endangered species and the natural world.</p>
+	<div class="links">
+		<a href="http://www.eia-global.org/" target="_blank">Visit EIA &raquo;</a>
+		<div class="cl"></div>
+	</div>
+</div><div class="partner">
+	<img src="/site/templates/styles/images/partners/emtech_MIT_RGB-md.jpg" class="partner-logo" alt="Logo: EmTech" />
+	<p>Technology Review's annual EmTech is the premier conference focused on emerging technologies and their impact.</p>
+	<div class="links">
+		<a href="http://www.technologyreview.com/emtech/" target="_blank">Visit EmTech &raquo;</a>
+		<div class="cl"></div>
+	</div>
+</div><div class="partner">
+	<img src="/site/templates/styles/images/partners/translatorswoborders.jpg" class="partner-logo" alt="Logo:Translators Without Borders" />
+	<p>Translators Without Borders</p>
+	<div class="links">
+		<a href="http://translatorswithoutborders.org" target="_blank">Visit Translators Without Borders &raquo;</a>
+		<div class="cl"></div>
+	</div>
+</div><div class="partner">
+	<img src="/site/templates/styles/images/partners/siemens-logo-200w.jpg" class="partner-logo" alt="Logo: Siemens|Stiftung" />
+	<p>empowering people.Award <br />Technologies for basic needs</p>
+	<div class="links">
+		<a href="http://www.empowering-people-award.siemens-stiftung.org" target="_blank">visit the empowering people.Award &raquo;</a>
+		<div class="cl"></div>
+	</div>
+</div><div class="partner">
+	<img src="/site/templates/styles/images/partners/nokero-200w.jpg" class="partner-logo" alt="Logo: Nokero" />
+	<p>Nokero develops safe, affordable and environmentally-friendly technology used around the world.</p>
+	<div class="links">
+		<a href="http://www.nokero.com/" target="_blank">Visit Nokero &raquo;</a>
+		<div class="cl"></div>
+	</div>
+</div><div class="partner">
+	<img src="/site/templates/styles/images/partners/rosetta.jpg" class="partner-logo" alt="Logo:Rosetta Foundation" />
+	<p>The Rosetta Foundation</p>
+	<div class="links">
+		<a href="http://www.therosettafoundation.org" target="_blank">Visit The Rosetta Foundation &raquo;</a>
+		<div class="cl"></div>
+	</div>
+</div><div class="partner">
+	<img src="/site/templates/styles/images/partners/nv-logo-hp.gif" class="partner-logo" alt="Logo: Niesar &amp; Vestal LLP" />
+	<p>Niesar &amp; Vestal LLP is a general business and corporate law firm with a diverse transactional and litigation practice, including advising nonprofit organizations on formation and tax exempt status issues.</p>
+	<div class="links">
+		<a href="http://www.nvlawllp.com/" target="_blank">Visit nvlawllp.com &raquo;</a>
+		<div class="cl"></div>
+	</div>
+</div>            </div>
+            <br/><br/><br/><br/><br/><br/>
+          </div>
+        </div>
+        <div class="cl" style="background:white; line-height:3px;">&nbsp;</div>
+      </div>
+
+    </div>
+
+    <!-- Footer. -->
+    <!-- TEL standard footer -->
+      <div class="footer">
+        <p class="tel-links">
+		<!-- FB like button added 2001-04-14 - EWP -->
+		<iframe src="http://www.facebook.com/plugins/like.php?href=www.technologyexchangelab.org" 
+		  scrolling="no" frameborder="0" style="border:none; width:450px; height:25px">
+		  </iframe><br/>
+		  <!-- end FB like button -->
+		  <!-- copyright -->   &copy; 2015          <a href="/" class="tel">Technology Exchange Lab, Inc.</a>
+          &nbsp;
+          <a href="/sign-up/privacy-policy/" class="privacy">Our Privacy Policy</a>
+          |
+          <a href="/sitemap/" class="sitemap">Sitemap</a>
+        </p>
+        <p class="tel-line">
+          The Technology Exchange Lab, Inc., Cambridge Innovation Center, 1 Broadway, 14th Floor, Cambridge, MA 02142, USA        </p>
+        <p class="tel-line">
+          TEL is a registered non-profit, tax-exempt charity under section 501(c)(3) of the U.S. Internal Revenue Code. Donations are tax deductible to the extent allowed by U.S. law. TEL is a public resource with no commercial allegiance.        </p>
+		<br />
+        <div class="share">
+          <span class='st_email'></span>
+          <span class='st_facebook'></span>
+          <span class='st_twitter'></span>
+          <span class='st_linkedin'></span>
+          <span class='st_sharethis' displayText='ShareThis'></span>
+        </div>
+        <div class="follow">
+          <img style="background-color:transparent;" src="/site/templates/styles/images/social_media_follow_tel.gif" width="85" height="20" alt="Follow Us" />
+            <a href="http://www.facebook.com/pages/Technology-Exchange-Lab-Inc/183240025036475" target="_blank" class="facebook">Facebook</a>
+            <a href="https://twitter.com/TechExLab" target="_blank" class="twitter">Twitter</a>
+        </div>
+        <div class="follow">
+  <img src="/site/templates/styles/images/social_media_follow_tel.gif"
+       width="85" height="20" alt="Follow Us" />
+  <a href="http://www.facebook.com/pages/Technology-Exchange-Lab-Inc/183240025036475" target="_blank" class="facebook">Facebook</a>
+  <a href="https://twitter.com/TechExLab" target="_blank" class="twitter">Twitter</a>
+</div>
+      </div>
+	  <br/>
+<!-- end - TEL standard footer -->
+
+    <!-- session -->
+    
+  </div>
+
+  
+</body>
+</html>

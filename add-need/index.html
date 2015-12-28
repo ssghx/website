@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+
+  <title>Add Need</title>
+
+  <link rel="icon" href="http://www.techxlab.org/img/tel.png" type="image/png">
+  <link rel="stylesheet" href="../css/font-awesome.css">
+<link rel="stylesheet" href="../css/ssghx.css">
+<link rel="stylesheet" href="../css/woothemes/flexslider.css">
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script>window.pubRef = {"href":"/add-need/","relPath":".."};</script>
+<script src="../js/jquery-1.11.3.min.js" ></script>
+<script src="../js/ssghx.js" ></script>
+<script src="../js/woothemes/jquery.flexslider.min.js" ></script>
+<script src="../js/sakabako/scrollmonitor.js" ></script>
+</head>
+<body>
+  <div data-render-layout="main-layout"><header id="header">
+  <div class='content'>
+    <div id="hamburgerButton" class="hamburger" onclick="$('.menu').toggleClass('show')">
+      <p class="bun"></p>
+      <p class="bun"></p>
+      <p class="bun"></p>
+    </div>
+    <div class='search'>
+      <input class='search-input' type='search' placeholder='search projects'>
+      <span class='search-icon'>&#xe003;</span>
+    </div>
+    <div class='buttons'>
+      <a class='button' href='/add-solution/' title='add-solution'>&#x270f;</a>
+      <a class='button' href='/add-need/' title='add-need'>&#x270f;</a>
+    </div>
+  </div>
+  <ul class="menu" onclick="$('.menu').toggleClass('show')">
+      <li class="">
+        <a href="../">Projects</a>
+      </li>
+      <li class="">
+        <a href="../news/">News</a>
+      </li>
+      <li class="">
+        <a href="../partners/">Partners</a>
+      </li>
+      <li class="">
+        <a href="../about/">About</a>
+      </li>
+  </ul>
+</header>
+
+<div data-render-page="form"><section id="form" class="section">
+  <div class="container">
+    <div data-render-html="/add-need/"><h1 id="post-your-project-needs-to-the-global-health-exchange">Post your project needs to the Global Health Exchange</h1>
+<p>Discover potential global health solutions to your specific needs by posting your project to the Global Health Exchange. Once published, your project profile will be accessible to the global health community, including practitioners from civil society, international organizations, government agencies and more.</p>
+<p>After your project has been submitted, our team will review all content to ensure that we provide accurate and unbiased information.</p>
+</div>
+    <form id="add-solution-form" novalidate="novalidate" action="https://tel-staging.herokuapp.com/server/form" method="POST" enctype="multipart/form-data">
+      <div data-render-html="/add-need/#form"><p>
+<label for="name" class="required">Project name:</label>
+<input required type="text" name="Name" id="name" class="required"></p>
+<p>
+<label for="project-description" class="required">Project description (up to 300 words):</label>
+<textarea required name="Project Description" id="project-description" class="required"></textarea></p>
+<h2 id="project-type">Project Type</h2>
+
+<label class="radio"><input type="radio" name="Category" value="policy">Policy &amp; Practice</label>
+<label class="radio"><input type="radio" name="Category" value="research">Research &amp; Innovation</label>
+<label class="radio"><input type="radio" name="Category" value="product">Product or Technology</label>
+<label class="radio"><input type="radio" name="Category" value="program">Program</label>
+<label class="radio"><input type="radio" name="Category" value="financial">Financial Resource</label>
+<label class="radio"><input type="radio" name="Category" value="education">Education &amp; Training</label>
+<label class="radio"><input type="radio" name="Category" value="other">Additional Solutions</label>
+<p></p>
+<p></p>
+
+<label style="display:none;" for="sub-category-policy">Sub-category:</label>
+<select style="display:none;" disabled name="Sub-category policy" id="sub-category-policy">
+<option value="">--- select from list ---</option>
+<option value="Mobile Health">Mobile Health</option>
+<option value="Nutrition">Nutrition</option>
+<option value="Women">Women</option>
+<option value="Children">Children</option>
+<option value="Maternal">Maternal</option>
+<option value="Neonatal">Neonatal</option>
+<option value="Adolescent Health">Adolescent Health</option>
+<option value="NCDs">NCDs</option>
+<option value="Communicable Diseases">Communicable Diseases</option>
+<option value="HIV/AIDS">HIV/AIDS</option>
+<option value="Malaria &amp; Tropical Diseases">Malaria &amp; Tropical Diseases</option>
+<option value="Primary Care">Primary Care</option>
+<option value="Secondary &amp; Tertiary Care">Secondary &amp; Tertiary Care</option>
+<option value="Psychosocial Care &amp; Mental">Psychosocial Care &amp; Mental</option>
+<option value="WASH">WASH</option>
+<option value="Family &amp; Community">Family &amp; Community</option>
+<option value="Health Promotion &amp; Prevention">Health Promotion &amp; Prevention</option>
+<option value="Devices">Devices</option>
+<option value="Vaccination">Vaccination</option>
+<option value="Surgical">Surgical</option>
+</select>
+<label style="display:none;" for="sub-category-research">Sub-category:</label>
+<select style="display:none;" disabled name="Sub-category research" id="sub-category-research">
+<option value="">--- select from list ---</option>
+<option value="Mobile Health">Mobile Health</option>
+<option value="Nutrition">Nutrition</option>
+<option value="Women">Women</option>
+<option value="Children">Children</option>
+<option value="Maternal">Maternal</option>
+<option value="Neonatal">Neonatal</option>
+<option value="Adolescent Health">Adolescent Health</option>
+<option value="NCDs">NCDs</option>
+<option value="Communicable Diseases">Communicable Diseases</option>
+<option value="HIV/AIDS">HIV/AIDS</option>
+<option value="Malaria &amp; Tropical Diseases">Malaria &amp; Tropical Diseases</option>
+<option value="Primary Care">Primary Care</option>
+<option value="Secondary &amp; Tertiary Care">Secondary &amp; Tertiary Care</option>
+<option value="Psychosocial Care &amp; Mental">Psychosocial Care &amp; Mental</option>
+<option value="WASH">WASH</option>
+<option value="Family &amp; Community">Family &amp; Community</option>
+<option value="Health Promotion &amp; Prevention">Health Promotion &amp; Prevention</option>
+<option value="Devices">Devices</option>
+<option value="Vaccination">Vaccination</option>
+<option value="Surgical">Surgical</option>
+</select>
+<label style="display:none;" for="sub-category-product">Sub-category:</label>
+<select style="display:none;" disabled name="Sub-category product" id="sub-category-product">
+<option value="">--- select from list ---</option>
+<option value="Mobile Health">Mobile Health</option>
+<option value="Nutrition">Nutrition</option>
+<option value="Women">Women</option>
+<option value="Children">Children</option>
+<option value="Maternal">Maternal</option>
+<option value="Neonatal">Neonatal</option>
+<option value="Adolescent Health">Adolescent Health</option>
+<option value="NCDs">NCDs</option>
+<option value="Communicable Diseases">Communicable Diseases</option>
+<option value="HIV/AIDS">HIV/AIDS</option>
+<option value="Malaria &amp; Tropical Diseases">Malaria &amp; Tropical Diseases</option>
+<option value="Primary Care">Primary Care</option>
+<option value="Secondary &amp; Tertiary Care">Secondary &amp; Tertiary Care</option>
+<option value="Psychosocial Care &amp; Mental">Psychosocial Care &amp; Mental</option>
+<option value="WASH">WASH</option>
+<option value="Family &amp; Community">Family &amp; Community</option>
+<option value="Health Promotion &amp; Prevention">Health Promotion &amp; Prevention</option>
+<option value="Devices">Devices</option>
+<option value="Vaccination">Vaccination</option>
+<option value="Surgical">Surgical</option>
+</select>
+<label style="display:none;" for="sub-category-program">Sub-category:</label>
+<select style="display:none;" disabled name="Sub-category program" id="sub-category-program">
+<option value="">--- select from list ---</option>
+<option value="Mobile Health">Mobile Health</option>
+<option value="Nutrition">Nutrition</option>
+<option value="Women">Women</option>
+<option value="Children">Children</option>
+<option value="Maternal">Maternal</option>
+<option value="Neonatal">Neonatal</option>
+<option value="Adolescent Health">Adolescent Health</option>
+<option value="NCDs">NCDs</option>
+<option value="Communicable Diseases">Communicable Diseases</option>
+<option value="HIV/AIDS">HIV/AIDS</option>
+<option value="Malaria &amp; Tropical Diseases">Malaria &amp; Tropical Diseases</option>
+<option value="Primary Care">Primary Care</option>
+<option value="Secondary &amp; Tertiary Care">Secondary &amp; Tertiary Care</option>
+<option value="Psychosocial Care &amp; Mental">Psychosocial Care &amp; Mental</option>
+<option value="WASH">WASH</option>
+<option value="Family &amp; Community">Family &amp; Community</option>
+<option value="Health Promotion &amp; Prevention">Health Promotion &amp; Prevention</option>
+<option value="Devices">Devices</option>
+<option value="Vaccination">Vaccination</option>
+<option value="Surgical">Surgical</option>
+</select>
+<label style="display:none;" for="sub-category-financial">Sub-category:</label>
+<select style="display:none;" disabled name="Sub-category financial" id="sub-category-financial">
+<option value="">--- select from list ---</option>
+<option value="Mobile Health">Mobile Health</option>
+<option value="Nutrition">Nutrition</option>
+<option value="Women">Women</option>
+<option value="Children">Children</option>
+<option value="Maternal">Maternal</option>
+<option value="Neonatal">Neonatal</option>
+<option value="Adolescent Health">Adolescent Health</option>
+<option value="NCDs">NCDs</option>
+<option value="Communicable Diseases">Communicable Diseases</option>
+<option value="HIV/AIDS">HIV/AIDS</option>
+<option value="Malaria &amp; Tropical Diseases">Malaria &amp; Tropical Diseases</option>
+<option value="Primary Care">Primary Care</option>
+<option value="Secondary &amp; Tertiary Care">Secondary &amp; Tertiary Care</option>
+<option value="Psychosocial Care &amp; Mental">Psychosocial Care &amp; Mental</option>
+<option value="WASH">WASH</option>
+<option value="Family &amp; Community">Family &amp; Community</option>
+<option value="Health Promotion &amp; Prevention">Health Promotion &amp; Prevention</option>
+<option value="Devices">Devices</option>
+<option value="Vaccination">Vaccination</option>
+<option value="Surgical">Surgical</option>
+</select>
+<label style="display:none;" for="sub-category-education">Sub-category:</label>
+<select style="display:none;" disabled name="Sub-category education" id="sub-category-education">
+<option value="">--- select from list ---</option>
+<option value="Mobile Health">Mobile Health</option>
+<option value="Nutrition">Nutrition</option>
+<option value="Women">Women</option>
+<option value="Children">Children</option>
+<option value="Maternal">Maternal</option>
+<option value="Neonatal">Neonatal</option>
+<option value="Adolescent Health">Adolescent Health</option>
+<option value="NCDs">NCDs</option>
+<option value="Communicable Diseases">Communicable Diseases</option>
+<option value="HIV/AIDS">HIV/AIDS</option>
+<option value="Malaria &amp; Tropical Diseases">Malaria &amp; Tropical Diseases</option>
+<option value="Primary Care">Primary Care</option>
+<option value="Secondary &amp; Tertiary Care">Secondary &amp; Tertiary Care</option>
+<option value="Psychosocial Care &amp; Mental">Psychosocial Care &amp; Mental</option>
+<option value="WASH">WASH</option>
+<option value="Family &amp; Community">Family &amp; Community</option>
+<option value="Health Promotion &amp; Prevention">Health Promotion &amp; Prevention</option>
+<option value="Devices">Devices</option>
+<option value="Vaccination">Vaccination</option>
+<option value="Surgical">Surgical</option>
+</select>
+<label style="display:none;" for="sub-category-other">Sub-category:</label>
+<select style="display:none;" disabled name="Sub-category other" id="sub-category-other">
+<option value="">--- select from list ---</option>
+<option value="Mobile Health">Mobile Health</option>
+<option value="Nutrition">Nutrition</option>
+<option value="Women">Women</option>
+<option value="Children">Children</option>
+<option value="Maternal">Maternal</option>
+<option value="Neonatal">Neonatal</option>
+<option value="Adolescent Health">Adolescent Health</option>
+<option value="NCDs">NCDs</option>
+<option value="Communicable Diseases">Communicable Diseases</option>
+<option value="HIV/AIDS">HIV/AIDS</option>
+<option value="Malaria &amp; Tropical Diseases">Malaria &amp; Tropical Diseases</option>
+<option value="Primary Care">Primary Care</option>
+<option value="Secondary &amp; Tertiary Care">Secondary &amp; Tertiary Care</option>
+<option value="Psychosocial Care &amp; Mental">Psychosocial Care &amp; Mental</option>
+<option value="WASH">WASH</option>
+<option value="Family &amp; Community">Family &amp; Community</option>
+<option value="Health Promotion &amp; Prevention">Health Promotion &amp; Prevention</option>
+<option value="Devices">Devices</option>
+<option value="Vaccination">Vaccination</option>
+<option value="Surgical">Surgical</option>
+</select><h2 id="files-for-direct-upload-to-ghx">Files for direct upload to GHX</h2>
+<p>
+<label for="image">Project/Organization logo or image:</label>
+<input type="file" name="Image" id="image">
+
+<label for="other-file-attachment">Further documentation, such as RFP or relevant articles:</label>
+<input type="file" name="Other File Attachment" id="other-file-attachment"></p>
+<h2 id="description-of-needs">Description of Needs</h2>
+<p>
+<label for="needs-wanted">Needs/Wanted description (up to 250 words):</label>
+<textarea name="Needs/Wanted" id="needs-wanted"></textarea>
+
+<label for="timeframe">Project timeframe:</label>
+<input type="text" name="Timeframe" id="timeframe">
+
+<label for="budget">Project budget in USD:</label>
+<input type="text" name="Budget" id="budget">
+
+<label for="organization-url">Link (URL) to the organization&#39;s website:</label>
+<input type="text" name="Organization url" id="organization-url">
+
+<label for="project-url">Link to the project webpage:</label>
+<input type="text" name="Project url" id="project-url">
+
+<label for="video-link">Link to external video, e.g. YouTube or Vimeo:</label>
+<input type="text" name="Video link" id="video-link">
+
+<label for="doc-url">Link to published documents, such as articles, reviews, or testimonials:</label>
+<input type="text" name="Doc url" id="doc-url"></p>
+<h2 id="project-status">Project Status</h2>
+
+<label>Is the project currently active? (Answer &quot;No&quot; if still only in conceptual stage.)</label>
+
+<label class="radio"><input type="radio" name="Project Active" value="Yes">Yes</label>
+<label class="radio"><input type="radio" name="Project Active" value="No">No</label>
+<p></p>
+<p>
+<label for="where-available" class="required">Countries where project is/will be implemented:</label>
+<input required type="text" name="Where available" id="where-available" class="required"></p>
+<p></p>
+<h2 id="organization-contact-info">Organization Contact Info</h2>
+<p>
+<label for="project-lead-name" class="required">Name:</label>
+<input required type="text" name="Project Lead Name" id="project-lead-name" class="required">
+
+<label for="provider-organization">Company or Organization:</label>
+<input type="text" name="Provider Organization" id="provider-organization">
+
+<label for="provider-street-address">Street Address:</label>
+<input type="text" name="Provider Street Address" id="provider-street-address">
+
+<label for="provider-city">City:</label>
+<input type="text" name="Provider City" id="provider-city">
+
+<label for="provider-postal-code">Postal Code:</label>
+<input type="text" name="Provider Postal Code" id="provider-postal-code">
+
+<label for="provider-country" class="required">Country:</label>
+<input required type="text" name="Provider Country" id="provider-country" class="required">
+
+<label for="provider-phone">Phone:</label>
+<input type="tel" name="Provider Phone" id="provider-phone">
+
+<label for="provider-email" class="required">Email:</label>
+<input required type="email" name="Provider Email" id="provider-email" class="required"></p>
+<h2 id="your-personal-contact-info">Your Personal Contact Info</h2>
+<p>
+<label for="contact-name" class="required">Name:</label>
+<input required type="text" name="Contact Name" id="contact-name" class="required">
+
+<label for="contact-organization">Company or Organization:</label>
+<input type="text" name="Contact Organization" id="contact-organization">
+
+<label for="contact-country" class="required">Country:</label>
+<input required type="text" name="Contact Country" id="contact-country" class="required">
+
+<label for="contact-email" class="required">Email:</label>
+<input required type="email" name="Contact Email" id="contact-email" class="required">
+
+<input type="submit" value="Submit Information" class="button"></p>
+<p>
+<input type="hidden" name="form" value="SSGHX Add Project need" id="form">
+
+<input type="hidden" name="thankyou" value="/form-thank-you/" id="thankyou">
+
+<input type="hidden" name="sorry" value="/form-sorry/" id="sorry">
+
+<input type="hidden" name="validated" id="validated">
+
+<input type="hidden" name="location" id="location"></p>
+</div>
+      <label class="form-error" style="display:none;" >
+    </form>
+  </div>
+</section>
+</div>
+
+<footer id="footer" class="section">
+</footer>
+</div>
+</body>
+</html>
