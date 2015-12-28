@@ -92,10 +92,12 @@ a:hover {
 
 ul {
   padding-left: 26px;
+  margin-bottom: 15px;
 }
 
 ol {
   margin-left: 15px;
+  margin-bottom: 15px;
 }
 
 /** basic template ************************************************************/

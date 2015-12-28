@@ -31,10 +31,24 @@
       <p class="bun"></p>
       <p class="bun"></p>
     </div>
-    <div class='search'>
-      <input class='search-input' type='search' placeholder='search projects'>
+    <form class='search'>
+      <input
+        id='search'
+        class='search-input'
+        value=""
+        type='search'
+        name="q"
+        placeholder='search projects'
+        autocomplete="off"
+        autocapitalize="off"
+        autocorrect="off"
+        spellcheck="false"
+        maxlength="20">
+      </input>
       <span class='search-icon'>&#xe003;</span>
-    </div>
+      <!-- <span id="search-clear" class="fa fa-fw fa-lg" title="Esc - Clear Search"></span>
+      <span id="search-count">?</span> -->
+    </form>
     <div class='buttons'>
       <a class='button' href='/add-solution/' title='add-solution'>&#x270f;</a>
       <a class='button' href='/add-need/' title='add-need'>&#x270f;</a>

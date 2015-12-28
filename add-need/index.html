@@ -31,10 +31,24 @@
       <p class="bun"></p>
       <p class="bun"></p>
     </div>
-    <div class='search'>
-      <input class='search-input' type='search' placeholder='search projects'>
+    <form class='search'>
+      <input
+        id='search'
+        class='search-input'
+        value=""
+        type='search'
+        name="q"
+        placeholder='search projects'
+        autocomplete="off"
+        autocapitalize="off"
+        autocorrect="off"
+        spellcheck="false"
+        maxlength="20">
+      </input>
       <span class='search-icon'>&#xe003;</span>
-    </div>
+      <!-- <span id="search-clear" class="fa fa-fw fa-lg" title="Esc - Clear Search"></span>
+      <span id="search-count">?</span> -->
+    </form>
     <div class='buttons'>
       <a class='button' href='/add-solution/' title='add-solution'>&#x270f;</a>
       <a class='button' href='/add-need/' title='add-need'>&#x270f;</a>
@@ -71,13 +85,13 @@
 <textarea required name="Project Description" id="project-description" class="required"></textarea></p>
 <h2 id="project-type">Project Type</h2>
 
-<label class="radio"><input type="radio" name="Category" value="policy">Policy &amp; Practice</label>
-<label class="radio"><input type="radio" name="Category" value="research">Research &amp; Innovation</label>
-<label class="radio"><input type="radio" name="Category" value="product">Product or Technology</label>
-<label class="radio"><input type="radio" name="Category" value="program">Program</label>
-<label class="radio"><input type="radio" name="Category" value="financial">Financial Resource</label>
-<label class="radio"><input type="radio" name="Category" value="education">Education &amp; Training</label>
-<label class="radio"><input type="radio" name="Category" value="other">Additional Solutions</label>
+<label class="radio"><input type="radio" name="Tags" value="policy">Policy &amp; Practice</label>
+<label class="radio"><input type="radio" name="Tags" value="research">Research &amp; Innovation</label>
+<label class="radio"><input type="radio" name="Tags" value="product">Product or Technology</label>
+<label class="radio"><input type="radio" name="Tags" value="program">Program</label>
+<label class="radio"><input type="radio" name="Tags" value="financial">Financial Resource</label>
+<label class="radio"><input type="radio" name="Tags" value="education">Education &amp; Training</label>
+<label class="radio"><input type="radio" name="Tags" value="other">Additional Solutions</label>
 <p></p>
 <p></p>
 
@@ -330,6 +344,8 @@
 <input type="submit" value="Submit Information" class="button"></p>
 <p>
 <input type="hidden" name="form" value="SSGHX Add Project need" id="form">
+
+<input type="hidden" name="Category" value="medical" id="category">
 
 <input type="hidden" name="thankyou" value="/form-thank-you/" id="thankyou">
 

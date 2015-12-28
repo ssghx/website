@@ -96,7 +96,7 @@ function initClientSide(g) {
 
       u.set(generator, 'req.query.q', txt);
       cleanScrollmon();
-      $results.html(generator.renderTemplate(pager.page, 'partial/result'));
+      $results.html(generator.renderTemplate(pager.page, 'projects/summaries'));
       initScrollmon();
     }
   }
@@ -119,7 +119,7 @@ function initClientSide(g) {
 
 
 function initForms() {
-  $forms = $('#contact-form, #get-started-form, #add-solution-form, #sign-up-form');
+  $forms = $('#form');
   if (!$forms.length) return;
   $('#location').val(location.origin + opts.staticRoot);
 
